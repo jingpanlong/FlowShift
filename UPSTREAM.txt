@@ -1,0 +1,16 @@
+Filee conversion core
+Repository: https://github.com/KnifeLemon/Filee
+Pinned commit: 799e39485f2aa78677f9ba51f692e862a7af76a6
+License: MIT, copyright 2026 Myeonggu Kim (KnifeLemon) and Filee contributors.
+Source included under Vendor/Filee, except Git history.
+
+FlowShift 2.0 reuses Filee.Core and Filee.Engines through a separate
+self-contained .NET 10 host. The floating desktop UI, classic workbench,
+bridge protocol, packaging and installer are FlowShift code.
+
+Local upstream modification:
+EngineInstaller.DownloadAsync now checks a verified cached download and
+retries transient network/IO download failures up to three attempts.
+
+Third-party binary components keep their original licenses. See
+Vendor/Filee/THIRD-PARTY-NOTICES.md and the extracted runtime licenses folder.

@@ -1,0 +1,28 @@
+FlowShift 2.0 uses the Filee conversion core.
+
+Filee: MIT License
+Copyright (c) 2026 Myeonggu Kim (KnifeLemon) and Filee contributors.
+Repository: https://github.com/KnifeLemon/Filee
+Pinned commit and changes: UPSTREAM.txt
+Full MIT license: Vendor/Filee/LICENSE
+Full third-party notices: Vendor/Filee/THIRD-PARTY-NOTICES.md
+
+The FlowShift WPF interface and bridge are independently authored.
+No Avalonia UI, Filee logo, updater, telemetry or Filee installer is used.
+The unmodified conversion libraries and separate conversion executables
+keep their own original licenses.
+
+The full distribution includes the .NET runtime and native conversion
+libraries, 7-Zip, rhwp, FFmpeg, Pandoc, Ghostscript, LibreOffice/H2Orestart/
+Temurin JRE and calibre. These components are unpacked under the current
+user's FlowShift runtime directory. Original license files and notices
+are retained there; additional notices are in runtime/licenses.
+
+In particular, FFmpeg, Pandoc, Ghostscript, calibre, H2Orestart and the JRE
+have GPL/AGPL or other component-specific terms described in Filee's full
+notices. They run as separate programs; their source projects, versions,
+download URLs and pinned SHA-256 hashes are listed in the included upstream
+notices and Vendor/Filee/src/Filee.Engines/Infrastructure/engines.json.
+
+Build dependencies are supplied by NuGet and the publishers' official
+release endpoints. No paid service or cloud conversion API is used.

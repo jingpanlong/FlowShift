@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+.build/
+core-payload.zip
+# Vendored Filee conversion core is fetched at a pinned commit (see Vendor/README.md)
+Vendor/Filee/

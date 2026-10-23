@@ -1,5 +1,7 @@
 # 流转 FlowShift
 
+![流转 FlowShift —— 长按右键，松手就转](docs/banner.jpg)
+
 > 本地格式转换器 · 桌面悬浮 · 文件右键菜单 · 格式罗盘 · 批量处理
 > A local Windows file-format converter: floating dock, Explorer context menu, radial format wheel, and batch processing.
 
